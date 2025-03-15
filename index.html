@@ -8,12 +8,33 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <style>
-    body { font-family: 'Poppins', sans-serif; }
+    
+    body {
+  font-family: 'Poppins', sans-serif;
+  background: url('https://img.freepik.com/premium-vector/abstract-white-light-grey-geometric-square-overlapped-pattern-background-with-shadow_453038-96.jpg?semt=ais_hybrid') no-repeat center center fixed;
+  background-size: cover;
+}
     .gradient-bg { background: linear-gradient(120deg, #4b6cb7, #182848); }
     .gradient-bg-secondary { background: linear-gradient(120deg, #ff9a9e, #fad0c4); }
     .card-hover { transition: transform 0.4s ease, box-shadow 0.4s ease; }
     .card-hover:hover { transform: translateY(-10px) scale(1.05); box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); }
     .fade-in { opacity: 0; animation: fadeIn 1s ease-in forwards; }
+    #services {
+    background: url('https://img.freepik.com/premium-vector/abstract-white-light-grey-geometric-square-overlapped-pattern-background-with-shadow_453038-96.jpg?semt=ais_hybrid') no-repeat center center fixed;
+    background-size: cover;
+    }
+    .flip-card-back {
+    background: url('https://media.istockphoto.com/id/1396069049/vector/abstract-geometric-background-with-triangle-shape-pattern.jpg?s=612x612&w=0&k=20&c=8D-F3tXFiBumD_l236mwTeZHrqWy0HBNOrQn49LTWbY=') no-repeat center center;
+    background-size: cover;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    }
+    .gradient-bg { 
+  background: url('https://news.emory.edu/features/2020/11/stopping-covid/assets/IopXcRUAje/2-01-2560x1456.jpeg') 
+  no-repeat center center fixed;
+  background-size: cover;
+}
     @keyframes fadeIn { to { opacity: 1; } }
   </style>
 </head>
@@ -40,7 +61,7 @@
       <!-- Call for Enquire Button -->
       <a class="bg-transparent text-white font-semibold py-4 px-8 rounded-full border-2 border-white mt-6 inline-block hover:scale-105 transition-transform" href="tel:+1234567890">Call for Enquiry</a>
       <!-- Go to Dashboard Button -->
-      <a class="bg-transparent text-white font-semibold py-4 px-8 rounded-full border-2 border-white mt-6 inline-block hover:scale-105 transition-transform" href="/dashboard">Go to Dashboard</a>
+      <a class="bg-transparent text-white font-semibold py-4 px-8 rounded-full border-2 border-white mt-6 inline-block hover:scale-105 transition-transform" href="#dashboard">Go to Dashboard</a>
     </div>
   </section>
 
